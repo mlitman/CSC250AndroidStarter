@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="goButtonPressed"
-            android:text="GO" />
+            android:text="Encode" />
 
         <TextView
             android:id="@+id/outputTV"
@@ -43,6 +43,28 @@
             android:gravity="center_horizontal"
             android:text="A"
             android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="decodeButtonPressed"
+            android:text="Decode" />
+
+        <TextView
+            android:id="@+id/decodeTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="?"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="largeTextbuttonPressed"
+            android:text="Rot13 Large Text" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
