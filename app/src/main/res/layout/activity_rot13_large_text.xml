@@ -15,15 +15,36 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight=".1"
             android:gravity="center_horizontal"
             android:text="Encoded Text"
             android:textSize="18sp" />
 
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:onClick="convertButtonPressed"
+            android:text="Convert" />
+
+        <EditText
+            android:id="@+id/inputET"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight=".40"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:text="Q: Knock, knock----Who's There?----Ashe----Ashe who? A: Bless you! " />
+
         <EditText
             android:id="@+id/outputET"
             android:layout_width="match_parent"
-            android:layout_height="339dp"
+            android:layout_height="200dp"
+            android:layout_weight=".40"
             android:ems="10"
+            android:gravity="top"
             android:inputType="textMultiLine" />
 
     </LinearLayout>
